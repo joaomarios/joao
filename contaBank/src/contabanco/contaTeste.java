@@ -24,7 +24,7 @@ public class contaTeste {
         p3.numconta = 12539875;
         p3.status = true;
         p3.tipo = "cc";
-        p3.saldo = 5000;
+        p3.saldo = 800;
         p3.deposita((float) 50);
         p3.estadoConta();
     }

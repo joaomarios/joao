@@ -1,6 +1,6 @@
 package contabanco;
 
-import contabanco.contaTeste ;
+import contabanco.contaTeste;
 
 public class contaTeste {
 
@@ -14,7 +14,7 @@ public class contaTeste {
         contabanco p2 = new contabanco("jose silva", 252, 58545);
         p2.abrircontar("cc");
         p2.deposita((float) 150.90);
-        p2.sacar((float) 299.9);
+        p2.sacar((float) 289.9);
         p2.estadoConta();
 
         contabanco p3 = new contabanco();
@@ -25,7 +25,7 @@ public class contaTeste {
         p3.status = true;
         p3.tipo = "cc";
         p3.saldo = 0;
-        p3.deposita((float) 5000);
+        p3.deposita((float) 50);
         p3.estadoConta();
     }
 

@@ -11,14 +11,14 @@ public class contaTeste {
         p1.sacar((float) 49.9);
         p1.estadoConta();
 
-        contabanco p2 = new contabanco("jose ", 252, 58545);
+        contabanco p2 = new contabanco("jose silva junior ", 252, 58545);
         p2.abrircontar("cc");
         p2.deposita((float) 150.90);
         p2.sacar((float) 289.9);
         p2.estadoConta();
 
         contabanco p3 = new contabanco();
-        p3.nome = "mario";
+        p3.nome = "mario jose silva";
         p3.agençia = 2525;
         p3.cpf = "115.589.478.58";
         p3.numconta = 12539875;

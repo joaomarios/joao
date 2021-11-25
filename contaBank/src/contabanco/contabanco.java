@@ -1,5 +1,9 @@
 package contabanco;
 
+/**
+ *
+ * @author joaomarios
+ */
 public class contabanco {
 
     public int agençia, numconta;
